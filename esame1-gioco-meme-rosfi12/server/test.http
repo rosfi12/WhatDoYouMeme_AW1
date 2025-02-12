@@ -1,0 +1,44 @@
+# Get all memes.
+GET http://localhost:3001/api/game/memes
+###
+
+# Get all captions.
+GET http://localhost:3001/api/game/captions
+###
+
+# Get all correct captions for a meme.
+GET http://localhost:3001/api/game/memes/1/correctcaptions
+###
+
+# Get all incorrect captions for a meme.
+GET http://localhost:3001/api/game/memes/1/incorrectcaptions
+###
+
+# Get 
+GET http://localhost:3001/api/game/round/?excludedMemeIds=[1,2,3]
+###
+
+# POST Request per salvare il punteggio finale
+POST http://localhost:3001/api/game/saveScore
+Content-Type: application/json
+
+{
+  "userId": "1",
+  "score": 15
+}
+
+### Get User Scores
+GET http://localhost:3001/api/scores/1
+Content-Type: application/json
+
+###
+GET http://localhost:3001/api/scores/2
+Content-Type: application/json
+
+### Get User Rounds
+GET http://localhost:3001/api/rounds/2
+Content-Type: application/json
+
+###
+GET http://localhost:3001/api/scores/2
+Content-Type: application/json

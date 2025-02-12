@@ -1,0 +1,267 @@
+.navbar {
+    background-color: rgb(255, 200, 73);
+    margin-top: 0px;
+}
+
+.navbar-brand{
+    font: italic small-caps bold 30px/2 cursive;
+}
+
+.navbar-img{
+    height: 50px;
+}
+
+.logout-button{
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 40px;
+    border:0.16em solid rgba(209, 30, 30, 0);
+    border-radius:60%;
+    box-sizing: border-box;
+    color:#ff0000;
+    font: bold 18px cursive;
+}
+.logout-button:hover{
+    border-color: #fbfbfb;
+    color: #000000;
+    background-color: #fbfbfb;
+}
+
+.login-scritta{
+    color:#09643f;
+    font: bold 18px cursive
+
+}
+
+.card-img-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+  
+.card-img-overlay .btn {
+    margin: 0 10px;
+}
+  
+.home-page {
+    height: 100vh;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    width: 100%; 
+}
+
+.centered-container .container {
+    max-width: 500px; 
+}
+
+.my-toast {
+    position: fixed;
+    top: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 200px;
+}
+  
+.my-toast.success {
+    background-color: #d4edda; /* green */
+    color: #155724;
+ }
+  
+.my-toast.danger {
+    background-color: #f8d7da; /* red */
+    color: #721c24;
+ }
+
+html, body {
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+
+.navbar {
+    height: 60px;
+}
+
+.home-container {
+height: calc(100vh - 60px); /* Altezza della schermata meno l'altezza della navbar */
+}
+
+.home-container .card {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.card img {
+min-width: 100%;
+min-height: 100%;
+object-fit: cover;
+}
+  
+.game-page-container {
+    height: calc(100vh - 60px); /* Altezza meno l'altezza della navbar */
+    overflow-y: auto; /* Abilita lo scrolling verticale se necessario */
+  }
+  
+.game-card {
+    margin-bottom: 20px; /* Spazio inferiore tra le carte */
+  }
+
+.summary-container {
+    height: calc(100vh - 60px); /* Altezza meno l'altezza della navbar */
+    overflow-y: auto; /* Abilita lo scrolling verticale se necessario */
+}
+
+.profile-page-container {
+    height: calc(100vh - 60px); /* Altezza meno l'altezza della navbar */
+    overflow-y: auto; /* Abilita lo scrolling verticale se necessario */
+    padding: 20px;
+}
+
+.profile-page-container .table {
+    margin-top: 20px;
+}
+
+.profile-page-container img {
+    max-width: 300px;
+    margin-bottom: 10px;
+}
+
+.modal-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.timer-oval {
+    background-color: rgb(255, 200, 73);
+    border-radius:80%;
+    border-style: double;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: bold;
+    color: #333;
+}
+
+.selected-caption {
+    background-color: #d4edda; 
+}
+
+.custom-anonimo-btn {
+    background-color: #d6732c; 
+    border-color: #705a08; 
+}
+
+/*btn:hover serve per cambio colore quando l'utente passa col cursore sopra il button*/
+.custom-anonimo-btn:hover {
+    background-color: #705a08; 
+    border-color: #705a08; 
+}
+  
+.custom-login-btn {
+    background-color: #2de76e; 
+    border-color: #0c5c0b; 
+}
+  
+.custom-login-btn:hover {
+    background-color: #0c5c0b; 
+    border-color: #0c5c0b; 
+}
+
+.img-ok-no  {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.img-round {
+    width: 500px; /* Dimensioni massime delle immagini */
+    margin-right: 10px; /* Margine a destra per separare le immagini */
+    margin-top: 100px;
+}
+
+.img-summary{
+    width: 300px;
+    height: 300px;
+}
+
+.round-scritta{
+    font: italic small-caps bold 30px/2 cursive;
+}
+
+.button-conferma-endgame-next{
+    margin-top: 4;
+    background-color: #c49349;
+    border-color: #302404;
+}
+
+.button-newGame-summary{
+    height: 66px;
+    margin-top: 8px;
+    margin-left: 40px;
+    border-radius:60%;
+    box-sizing: border-box;
+    color: #e98017;
+    font: bold 30px cursive;
+}
+
+.button-newGame-summary:hover{
+    border-color: #302404;
+    background-color: rgb(255, 200, 73);
+}
+
+/* Style.css */
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f9f5b8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-text{
+    font: 20px cursive;
+    color:#000000
+}
+
+.form-title {
+    text-align: center;
+    font: bold 30px cursive;
+    margin-bottom: 20px;
+}
+
+.form-control-custom {
+    height: 30px;
+    padding: 5px 10px;
+    font: 16px cursive;
+}
+
+.btn-custom {
+    width: 40%;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.btn-cancel {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 40%;
+}
